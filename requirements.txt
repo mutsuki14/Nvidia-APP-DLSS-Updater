@@ -1,0 +1,4 @@
+# Requirements for NVIDIA DLSS Updater
+pyinstaller>=6.0.0
+pillow>=10.0.0
+colorama>=0.4.6
