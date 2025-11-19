@@ -1,0 +1,15 @@
+{
+  "name": "NVIDIA DLSS Updater v1.0.0",
+  "tag_name": "v1.0.0",
+  "body": "# NVIDIA DLSS Updater v1.0.0\n\n## 🎉 首次发布 / Initial Release\n\n这是 NVIDIA DLSS Updater 的首个正式版本，将原本的 PowerShell 脚本转换为独立的可执行程序。\n\nThis is the first official release of NVIDIA DLSS Updater, converting the original PowerShell script into standalone executables.\n\n## ✨ 主要特性 / Key Features\n\n- 🖥️ **图形界面版本** / GUI Version - 用户友好的界面，无需命令行知识\n- 💻 **命令行版本** / CLI Version - 支持自动化和批处理集成\n- 🔄 **自动检测** / Auto-detection - 自动扫描当前目录的 DLSS DLL 文件\n- 💾 **备份与恢复** / Backup & Restore - 自动创建备份，支持一键恢复\n- 🌐 **双语支持** / Bilingual - 中英文界面支持\n- 🛡️ **管理员权限** / Admin Rights - 自动检测并请求管理员权限\n\n## 📦 下载内容 / Package Contents\n\n- `NvidiaDLSSUpdater.exe` - GUI 版本主程序\n- `NvidiaDLSSUpdaterCLI.exe` - CLI 版本主程序  \n- `RunAsAdmin.bat` - 管理员权限启动器\n- `README.md` - 英文说明文档\n- `README_EXE.md` - 可执行文件详细说明\n\n## 🚀 快速开始 / Quick Start\n\n1. 下载并解压 `NvidiaDLSSUpdater_v1.0.0.zip`\n2. 将你的 DLSS DLL 文件（nvngx_dlss.dll 等）放在同一目录\n3. 双击运行 `RunAsAdmin.bat`\n4. 程序会自动检测并更新 NVIDIA App 的 DLSS 源文件\n\n## ⚠️ 系统要求 / System Requirements\n\n- Windows 10/11 (64-bit)\n- NVIDIA App 已安装\n- 管理员权限\n\n## 📝 更新日志 / Changelog\n\n- 将 PowerShell 脚本转换为独立可执行程序\n- 添加图形用户界面（GUI）版本\n- 添加命令行界面（CLI）版本\n- 实现自动 DLL 文件检测功能\n- 添加备份和恢复功能\n- 支持中英文双语界面\n- 创建管理员权限自动启动器\n\n## ⚡ 已知问题 / Known Issues\n\n- 首次运行可能被 Windows Defender 拦截，请选择\"仍然运行\"\n- 需要以管理员身份运行才能修改系统文件\n\n## 🔗 相关链接 / Links\n\n- [项目主页 / Project Homepage](https://github.com/mutsuki14/Nvidia-APP-DLSS-Updater)\n- [问题反馈 / Issue Tracker](https://github.com/mutsuki14/Nvidia-APP-DLSS-Updater/issues)\n\n## 免责声明 / Disclaimer\n\n修改 NVIDIA 应用程序文件可能影响系统稳定性。使用本工具的风险由用户自行承担。\n\nModifying NVIDIA application files may affect system stability. Use at your own risk.",
+  "draft": false,
+  "prerelease": false,
+  "created_at": "2025-11-19T10:21:44.746736",
+  "assets": [
+    {
+      "name": "NvidiaDLSSUpdater_v1.0.0.zip",
+      "size": 42285316,
+      "download_count": 0
+    }
+  ]
+}
